@@ -1,7 +1,7 @@
 notas = []
 
 while True:
-    tryy:
+    try:
         entrada = input("Ingresa la nota del estudiante (o 'fin' para terminar): ")
 
         if entrada.lower() == 'fin':
@@ -9,7 +9,7 @@ while True:
         nota = float(entrada)
         notas.append(nota)
     except ValueError:
-        printt("Ingresa valores numericos validos")
+        print("Ingresa valores numericos validos")
     
 if notas:
     promedio = sum(notas) / len(notas)
