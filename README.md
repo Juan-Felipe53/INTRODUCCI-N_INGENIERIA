@@ -10,3 +10,5 @@ Este repositorio contiene un script en Python que permite calcular el promedio d
 
 '''bash
 python notas.py
+
+Cambios desde dev editor
